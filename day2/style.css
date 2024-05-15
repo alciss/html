@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+
+}
+
+
+div {
+    height: 40px;
+    width: 25px;
+}
+li {
+    display: inline;
+padding: 16px;
+
+}
+ul{
+    background-color: red;
+    margin: 0px;
+    padding: 16px;
+}
+.ri{
+    background-color: yellow;
+}
+
+#right{
+    float: right;
+}
+
+.container img {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+}
+
+  .raj{
+    background-color: yellow;
+    width: 100%;
+    border: 30px;
+    border-style: solid;
+    border-radius :2px;
+    height: 300px;
+object-fit: cover;
+  }
