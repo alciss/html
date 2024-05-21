@@ -1,0 +1,27 @@
+
+*{
+    margin: 0px;
+}
+ul{
+    padding: 15px;
+    border: 50px;
+    border-color: rgb(9, 9, 10);
+    margin-inline-start: 0%;
+    
+}
+ol{
+    float: right;
+    padding: 0%;
+}
+ul{
+    background-color: rgb(1, 1, 2);
+}
+.H{
+    text-decoration:none;
+
+}
+p{
+    height: 35px;
+    width: 650px;
+    padding: 16px;
+}
