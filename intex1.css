@@ -16,12 +16,34 @@ ol{
 ul{
     background-color: rgb(1, 1, 2);
 }
-.H{
-    text-decoration:none;
+.c1 {
+    float: left;
+    width: 48%;
+    padding: 15px;
+    text-align: justify;
+  }
+  .c2 {
+    float: left;
+    width: 47%;
+    padding: 15px;
+    text-align: justify;
 
-}
-p{
-    height: 35px;
-    width: 650px;
+  }
+  .row2{
     padding: 16px;
-}
+    
+
+  }
+  .i{
+    width: 50%;
+    height: 250px;
+  }
+  .p2{
+    float: right;
+    width: 48.5%;
+    padding: 15px;
+    padding: 0%;
+    text-align: justify;
+
+  }
+  
