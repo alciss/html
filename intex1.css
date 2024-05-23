@@ -8,6 +8,7 @@ ul{
     border-color: rgb(9, 9, 10);
     margin-inline-start: 0%;
     
+    
 }
 ol{
     float: right;
@@ -21,6 +22,7 @@ ul{
     width: 48%;
     padding: 15px;
     text-align: justify;
+    
   }
   .c2 {
     float: left;
@@ -35,7 +37,7 @@ ul{
 
   }
   .i{
-    width: 50%;
+    width: 25%;
     height: 250px;
   }
   .p2{
@@ -44,6 +46,28 @@ ul{
     padding: 15px;
     padding: 0%;
     text-align: justify;
+    text-decoration: aliceblue;
 
   }
-  
+  body{
+    background-color: black;
+
+  }
+  summary{
+    text-colour: wight;
+  }
+  .p3{
+    float: left;
+    width: 48.5%;
+    padding: 15px;
+    padding: 0%;
+    text-align: justify;
+    text-decoration: aliceblue;
+
+  }
+  .li{
+    text-align: right;
+    width: 47%;
+    padding: 15px;
+    text-align: justify;
+  }
