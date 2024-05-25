@@ -51,6 +51,7 @@ ul{
   }
   body{
     background-color: black;
+    max-width: max-content;
 
   }
   summary{
@@ -58,7 +59,7 @@ ul{
   }
   .p3{
     float: left;
-    width: 48.5%;
+    max-width: 48.5%;
     padding: 15px;
     padding: 0%;
     text-align: justify;
@@ -71,3 +72,20 @@ ul{
     padding: 15px;
     text-align: justify;
   }
+  .container{
+    
+    height: 300px;
+    width: 1200px;
+    margin: 240px auto;
+    padding: 0%;
+    display: flex;
+  }
+  .container.box{
+    
+    width: calc(400px-30px);
+    height: calc(300px -30px);
+    background-color: rgb(185, 103, 103);
+    float: left;
+ 
+  }
+ 
