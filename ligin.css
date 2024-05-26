@@ -1,0 +1,15 @@
+.container{
+    
+    height: 300px;
+    width: 1200px;
+    margin: 240px auto;
+    padding: 0%;
+    display: flex;
+padding: 100px;
+}
+.container.box{
+    
+    width: calc(400px-30px);
+    height: calc(300px -30px);
+    background-color: rgb(185, 103, 103);
+    float: left;
