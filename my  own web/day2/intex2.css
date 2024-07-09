@@ -2,3 +2,23 @@ li{
     display: inline;
     padding: 10px;
 }
+body{
+    background-color: rgb(206, 206, 214);
+}
+a{
+    text-decoration: none;
+}
+    
+.C{
+    background-color: rgb(230, 215, 215);
+    border: solid;
+    height: 500px;
+}
+.border-box{
+    border: 10px solid  green;
+}
+.box{
+    border: 5px solid red;
+   padding: 25%;
+    align-items: center;
+}
