@@ -3,22 +3,35 @@ li{
     padding: 10px;
 }
 body{
-    background-color: rgb(206, 206, 214);
+    background-color: rgba(6, 6, 21, 0.554);
 }
 a{
     text-decoration: none;
+    
 }
     
 .C{
-    background-color: rgb(230, 215, 215);
+    
     border: solid;
-    height: 500px;
+    height: 700px;
+    display: flex;
+
 }
-.border-box{
-    border: 10px solid  green;
-}
+
 .box{
-    border: 5px solid red;
-   padding: 25%;
+    border: 5px solid rgb(51, 36, 36);
+    margin:70px ;
     align-items: center;
+    height: 200px;
+    width: 250px;
+    border-radius:10% ; 
+    background-color: azure;
+    
+    
+    
 }
+iframe{
+
+    
+}
+    
