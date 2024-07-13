@@ -3,7 +3,7 @@ li{
     padding: 10px;
 }
 body{
-    background-color: rgba(6, 6, 21, 0.554);
+    background-color: rgba(120, 120, 207, 0.554);
 }
 a{
     text-decoration: none;
@@ -19,14 +19,16 @@ a{
 }
 
 .box{
-    border: 5px solid rgb(51, 36, 36);
-    margin:70px ;
-    align-items: center;
-    height: 200px;
-    width: 250px;
-    border-radius:10% ; 
-    background-color: azure;
+    border: solid 5px red;
+    padding: 10%;
+    margin: 5%;
+    height: 10px;
     
-    
-    
+    border-radius: 30px;
+}
+button{
+    float: right;
+}
+.al{
+    float: right;
 }
