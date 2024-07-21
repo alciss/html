@@ -3,7 +3,7 @@ li{
     padding: 10px;
 }
 body{
-    background-color: rgba(120, 120, 207, 0.554);
+    background-image: url('img_girl.jpg');
 }
 a{
     text-decoration: none;
@@ -12,23 +12,8 @@ a{
     
 .C{
     
-    border: solid;
+    border: solid gray 1px;
     height: 700px;
     display: flex;
-
-}
-
-.box{
-    border: solid 5px red;
-    padding: 10%;
-    margin: 5%;
-    height: 10px;
     
-    border-radius: 30px;
-}
-button{
-    float: right;
-}
-.al{
-    float: right;
 }
