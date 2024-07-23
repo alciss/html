@@ -17,3 +17,43 @@ a{
     display: flex;
     
 }
+.hed{
+    background-color: aqua;
+    height: 100px;
+    width: 100%;
+    border: color(srgb red green blue);
+    text-align: center;
+    font-style:italic;
+    background-color: gray;
+}
+
+    
+
+.containar{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+    padding: 0%;
+    background-color: rgb(217, 217, 242);
+    height: 500px;
+
+}
+.item1{
+    background-color: rgba(77, 77, 75, 0.259);
+    padding: 0%;
+    height: 550px;
+    width: 100%;
+}
+.item2{
+    background-color: aqua;
+    width: 850px;
+    height: 550px;
+    padding: 0%;
+}
+.box{
+    height: 155px;
+    width: 100%;
+}
+.na{
+    width: 100%;
+}
