@@ -29,16 +29,43 @@ a{
 }
 .conteinar{
 
-    border: solid gray;
+    border: solid rgb(245, 243, 243) 5%;
     background-color: rgba(105, 103, 103, 0.185);
     height: 500px;
+    display: flex;
+   
 
 }
 .item1{
-    border: solid black;
+    border: solid rgb(252, 247, 247);
     height:496px ;
-    width: 200px;
+    width: 400px;
 }
+.item2{
+    border: solid rgb(252, 244, 244);
+    height:496px ;
+    width: 450px;
+}
+.item3{
+    border: solid rgb(252, 244, 244);
+    height:496px ;
+    width: 450px;
+}
+.conteinar2{
+    border: solid black ;
+    height: 250px;
+    background-color: blue;
+    padding: 0%%;
+    border-radius: 20px;
+}
+.c1-1{
+    border: solid white 5px;
+    border-radius: 20px;
+    height: 241px;
+    background-color: blanchedalmond;
+    
+}
+
 
     
 
