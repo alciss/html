@@ -5,8 +5,9 @@ li{
     padding: 10px;
 }
 
-a{
-    text-decoration: none;
+   text-decoration: none;
+   {
+ 
     
 }
     
@@ -17,71 +18,45 @@ a{
     display: flex;
     
 }
-.hed{
-    background-color: rgb(51, 216, 216);
-    height: 98px;
-    width: 100%;
-    border: color(srgb red green blue);
+.header {
+    grid-area: header;
+    background-color: hsl(60, 100%, 50%);
+    height: 150px;
     text-align: center;
-    font-style:italic;
-    background-color: gray;
-    overflow: hidden;
 }
-.conteinar{
+.sidbar{
+    grid-area: sidbar;
+    background-color: hsl(183, 95%, 49%);
+    height: 600px;
+    
+    
+}
+.main{
+    grid-area: main;
+    background-color: hsl(33, 82%, 48%);
+}
+.section{
+    grid-area: section;
+    background-color: #ff0000;
+}
+.content{
+    grid-area: content;
+    background-color: rgb(20, 20, 244);
 
-    border: solid rgb(245, 243, 243) 5%;
-    background-color: rgba(105, 103, 103, 0.185);
+}
+.footer{
+    grid-area: footer;
+    background-color: hsl(358, 39%, 88%);
     height: 500px;
-    display: flex;
-   
-
 }
-.item1{
-    border: solid rgb(252, 247, 247);
-    height:496px ;
-    width: 400px;
+.containar{
+    display: grid;
+    gap: 0px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 2fr 2fr  ;
+    grid-template-areas: 
+    "header header header"
+    "sidbar main main"
+    "sidbar section content"
+    "footer footer footer";
 }
-.item2{
-    border: solid rgb(252, 244, 244);
-    height:496px ;
-    width: 450px;
-}
-.item3{
-    border: solid rgb(252, 244, 244);
-    height:496px ;
-    width: 450px;
-}
-.conteinar2{
-    border: solid black ;
-    height: 250px;
-    background-color: blue;
-    padding: 0%%;
-    border-radius: 20px;
-}
-.c1-1{
-    border: solid white 5px;
-    border-radius: 20px;
-    height: 241px;
-    background-color: blanchedalmond;
-    
-}
-.img1{
-    width: 100%;
-    height: 100%;
-}
-.img2{
-    width: 100%;
-    height: 100%;
-}
-.img3{
-    width: 100%;
-    height: 100%;
-}
-.img4{
-    width: 100%;
-    height: 100%;
-}
-
-
-    
-
